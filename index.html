@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+    <div id="quiz">
+      <div id="question-container">
+        <h2 id="question">Question text</h2>
+        <ul id="answer-buttons" class="btn-grid"></ul>
+      </div>
+      <button id="next-btn" class="next-btn">Next</button>
+    </div>
+
+    <div id="result-container" class="hide">
+      <h2 id="result-text"></h2>
+      <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <!-- Make sure the JS file is loaded AFTER the HTML -->
+  <script src="index.js"></script>
+</body>
+</html>
